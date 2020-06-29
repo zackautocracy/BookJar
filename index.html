@@ -1,41 +1,101 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Book Wonk</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Work+Sans:200,500" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+  <script id="book-template" type="text/x-handlebars-template">
+    <div class="book-container">
+      {{#each book}}
+        <div class="book" id="movie" style="background-image: url({{this.cover}}); background-size: cover;">
+          <div class="book-spacing"></div>
+          <div class="book-content">
+            <h2>{{this.title}}</h2>
+            <p class="rating">⭐ {{this.rating}}</p>
+            <div class="tags">
+              <div class="tagbox purple">{{this.genre}}</div>
+            </div>
+            <div class="description">
+              {{this.description}}
+            </div>
+            <div style="padding-bloc"><p>Price: {{this.price.text}} &nbsp; {{this.price.currency}}</p></div>
+            <!--            <div><p>Authors: </p>-->
+            <!--            </div>-->
+            <div><p>Published In: {{this.publish_date}}</p></div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </script>
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <header>
+    <img src="img/large_Book-Jar.png" class="logo"/>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </header>
+  <main id="main">
+    <div class="container">
+
+      <h1>Search a Book</h1>
+
+      <form id="form" autocomplete="off" onkeydown="return event.key !== 'Enter';">
+        <div class="tag-input">
+          <img id="search" src="img/search.svg" class="icon">
+          <input type="text" id="input" value="" placeholder="ie: Book Title or Author" required>
+        </div>
+        <div class="filter">
+          <div class="item">
+            <input type="checkbox" name="toggle" class="sw" id="toggle-1">
+            <label for="toggle-1"></label>
+            <h6>By Author</h6>
+          </div>
+          <div class="item">
+            <input type="checkbox" name="toggle" class="sw" id="toggle-2" checked>
+            <label for="toggle-2"></label>
+            <h6>By Title</h6>
+          </div>
+        </div>
+      </form>
+
+
+      <div id="responseField">
+
+
+      </div>
+
+    </div>
+
+
+    <div id="collection">
+      <h1>Or</h1>
+      <button class="button">
+        Browse Our Collection
+        <div class="button__horizontal"></div>
+        <div class="button__vertical"></div>
+      </button>
+    </div>
+
+  </main>
+
+  <footer id="footer">
+    &copy; 2020 made by Zakaria Ouadrhiri Idrissi Azzouzi & Anas Ait El Kouch
+  </footer>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+
 </body>
 
 </html>

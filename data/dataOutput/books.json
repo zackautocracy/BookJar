@@ -1,0 +1,324 @@
+{
+  "books": {
+    "book": [
+      {
+        "ISBN": "0061964360",
+        "title": "Glencoe Health",
+        "authors": {
+          "author": "Austen Jane"
+        },
+        "cover": "img/books/book1.png",
+        "genre": "Philosophie",
+        "sections": {
+          "section": [
+            {
+              "section": "The pride inside of me"
+            },
+            {
+              "section": "Prejudice repercussions"
+            }
+          ]
+        },
+        "rating": "4.2",
+        "price": {
+          "currency": "MAD",
+          "text": "63.00"
+        },
+        "publish_date": "05-04-2009",
+        "description": "With all the forces of the world conspiring to keep Mr. Darcy and Elizabeth Bennet apart, how will fate manage to bring them together? It certainly won't be easy if they're fighting it every step of the way. But theirs is a love that was meant to be, despite all the odds against them."
+      },
+      {
+        "ISBN": "0316160199",
+        "title": "New Moon",
+        "authors": {
+          "author": "STEPHENIE MEYER"
+        },
+        "cover": "img/books/book2.jpg",
+        "genre": "General Fiction",
+        "sections": {
+          "section": [
+            {
+              "section": "Twilight the beginning"
+            },
+            {
+              "section": "Wolfs vs vampires"
+            }
+          ]
+        },
+        "rating": "3.9",
+        "price": {
+          "currency": "MAD",
+          "text": "170.00"
+        },
+        "publish_date": "2006-08-01",
+        "description": "On her eighteenth birthday, Bella Swan awakens from a dream where she is an old woman and Edward Cullen, her immortal vampire boyfriend is forever young. Despite her lack of enthusiasm, Edward's family host a birthday reception for Bella at their residence. While unwrapping a gift, Bella receives a paper cut."
+      },
+      {
+        "ISBN": "0002321777",
+        "title": "Rift (the crime club)",
+        "authors": {
+          "author": "Lisa Cody"
+        },
+        "cover": "img/books/book3.jpg",
+        "genre": "General Fiction",
+        "sections": {
+          "section": [
+            {
+              "section": "The begining of a new area"
+            },
+            {
+              "section": "Kill with purpose"
+            }
+          ]
+        },
+        "rating": "3.5",
+        "price": {
+          "currency": "MAD",
+          "text": "89.00"
+        },
+        "publish_date": "1999-10-01",
+        "description": "The Crime Club was an imprint of the Doubleday publishing company, which later spawned a ... series between 1937 and 1939. The first film in the series was The Westland Case, based on the Jonathan Latimer novel Headed for a Hearse."
+      },
+      {
+        "ISBN": "1413708323",
+        "title": "Taking the Long Way Home",
+        "authors": {
+          "author": "Hitchcock"
+        },
+        "cover": "img/books/book4.jpg",
+        "genre": "General Fiction",
+        "sections": {
+          "section": [
+            {
+              "section": "Long road to go"
+            },
+            {
+              "section": "The missing piece"
+            },
+            {
+              "section": "Finally home!"
+            }
+          ]
+        },
+        "rating": "4.5",
+        "price": {
+          "currency": "MAD",
+          "text": "150.00"
+        },
+        "publish_date": "1999-10-04",
+        "description": "Mrs. Hensley can't take one more second of her children's bickering, but never imagined that when she sent them out for a day of fishing, the real journey they would embark upon. Andrea, Kevin and Heather also never dreamed that a wish Andrea would make after a childish prank would take them to a world beyond anything they could ever imagine."
+      },
+      {
+        "ISBN": "0821773038",
+        "title": "The Dragon Prince",
+        "authors": {
+          "author": "Gilgannon Mary"
+        },
+        "cover": "img/books/book5.jpg",
+        "genre": "Romance",
+        "sections": {
+          "section": [
+            {
+              "section": "My first love"
+            },
+            {
+              "section": "Don't forget who we are"
+            }
+          ]
+        },
+        "rating": "2.5",
+        "price": {
+          "currency": "MAD",
+          "text": "24.00"
+        },
+        "publish_date": "2012-06-05",
+        "description": "The sequel to Dragon of the Island and Dragon's Dream follows Rhun, a fierce warrior dedicated to King Arthur, as he meets Eastra, an enchanting Saxon princess who tempts his very soul, and as the Saxons and Britons battle for supremacy, Eastra offers herself as a sacrifice to stop the war, forcing Rhun to make a choice that will change his life forever."
+      },
+      {
+        "ISBN": "0446616044",
+        "title": "Train From Marietta",
+        "authors": {
+          "author": "Garlock Dorothy"
+        },
+        "cover": "img/books/book6.jpg",
+        "genre": "Romance",
+        "sections": {
+          "section": [
+            {
+              "section": "Trip to nowhere"
+            },
+            {
+              "section": "Finally in my homeland"
+            }
+          ]
+        },
+        "rating": "3.5",
+        "price": {
+          "currency": "MAD",
+          "text": "50.00"
+        },
+        "publish_date": "2008-07-03",
+        "description": "Dorothy Garlock's exciting Texastale of romance, intrigue and adventure is now in massmarket"
+      },
+      {
+        "ISBN": "0751508136",
+        "title": "THE FAR SIDE GALLERY 4",
+        "authors": {
+          "author": "Larson Gary"
+        },
+        "cover": "img/books/book7.jpg",
+        "genre": "Cartoon",
+        "sections": {
+          "section": [
+            {
+              "section": "1st story"
+            },
+            {
+              "section": "2nd story"
+            }
+          ]
+        },
+        "rating": "3.7",
+        "price": {
+          "currency": "MAD",
+          "text": "64.00"
+        },
+        "publish_date": "1994-03-07",
+        "description": "Offers a compilation of selected cartoons from three previous Far Side collections"
+      },
+      {
+        "ISBN": "0906710510",
+        "title": "GARFIELD : WHAT'S COOKING",
+        "authors": {
+          "author": "David Jim"
+        },
+        "cover": "img/books/book8.jpg",
+        "genre": "Cartoon",
+        "sections": {
+          "section": [
+            {
+              "section": "Garfield's in the space"
+            },
+            {
+              "section": "Garfield's fiesta"
+            }
+          ]
+        },
+        "rating": "4.8",
+        "price": {
+          "currency": "MAD",
+          "text": "81.00"
+        },
+        "publish_date": "2004-11-08",
+        "description": "We go though garfield journey"
+      },
+      {
+        "ISBN": "0413293807",
+        "title": "COMPLEAT TANGLER",
+        "authors": {
+          "author": "Thelwell Norman"
+        },
+        "cover": "img/books/book9.jpg",
+        "genre": "Cartoon",
+        "sections": {
+          "section": [
+            {
+              "section": "Fishing day"
+            },
+            {
+              "section": "How to fish well"
+            }
+          ]
+        },
+        "rating": "3.8",
+        "price": {
+          "currency": "MAD",
+          "text": "174.00"
+        },
+        "publish_date": "1984-07-08",
+        "description": "A humourous look at aspects of fishing and angling."
+      },
+      {
+        "ISBN": "0671761749",
+        "title": "BE MY GUEST",
+        "authors": {
+          "author": "Conrad N. Hilton"
+        },
+        "cover": "img/books/book10.jpg",
+        "genre": "Economics",
+        "sections": {
+          "section": [
+            {
+              "section": "Make me buy this pen"
+            },
+            {
+              "section": "How to know when to make a bet"
+            },
+            {
+              "section": "Start your business now"
+            }
+          ]
+        },
+        "rating": "4.6",
+        "price": {
+          "currency": "MAD",
+          "text": "180.00"
+        },
+        "publish_date": "1998-06-17",
+        "description": "Business corporate history and Management of Hilton Hotel Chain. Hospitality Industry"
+      },
+      {
+        "ISBN": "0671761749",
+        "title": "DEN OF THIEVES",
+        "authors": {
+          "author": "James B. Stewart"
+        },
+        "cover": "img/books/book11.jpg",
+        "genre": "Economics",
+        "sections": {
+          "section": [
+            {
+              "section": "The beginning of a crise"
+            },
+            {
+              "section": "Poverty propaganda"
+            }
+          ]
+        },
+        "rating": "2.6",
+        "price": {
+          "currency": "MAD",
+          "text": "90.00"
+        },
+        "publish_date": "1999-08-18",
+        "description": "Den of Thieves tells the full story of the insider-trading scandal that nearly destroyed Wall Street, the men who pulled it off, and the chase that finally brought them to justice."
+      },
+      {
+        "ISBN": "8172238983",
+        "title": "BHAGAVADGITA",
+        "authors": {
+          "author": "Harper Collins"
+        },
+        "cover": "img/books/book12.jpg",
+        "genre": "Social Books",
+        "sections": {
+          "section": [
+            {
+              "section": "The language of love"
+            },
+            {
+              "section": "Gather everything"
+            }
+          ]
+        },
+        "rating": "4.9",
+        "price": {
+          "currency": "MAD",
+          "text": "190.00"
+        },
+        "publish_date": "2010-10-24",
+        "description": "The Bhagavadgita or Sacred Song holds an assured place among the world's great scriptures.In fourteen hundred lines of verse,the relationship of man with god-and the intense joy of divine love-are celebrated in language that is precise and beautiful."
+      }
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 2px solid white;*/
+  /*box-sizing: border-box;*/
+}
+
+body {
+  background-image: url('../img/cover.jpg');
+  background-size: cover;
+  height: 100vh;
+  opacity: 90%;
+}
+header {
+
+  text-align: center;
+  /*background-color: #ef6b68;*/
+  padding: 10px;
+}
+
+main {
+  /*background-color: #ef6b68;*/
+  /*height: 900px;*/
+  text-align: center;
+  margin-top: -3%;
+}
+
+h1 {
+  font-family: Work Sans, sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 0;
+  text-align: center;
+  color: white;
+  /*padding-top: 40px;*/
+  /*margin: 0 0 0 0;*/
+}
+
+h6 {
+  font-family: Work Sans , sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+li {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 25% 0 25%;
+}
+
+.tag-input {
+  position: relative;
+}
+
+.logo {
+  margin-top: -3%;
+  width: 410px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.icon {
+  height: 25px;
+  width: 40px;
+  padding: 15px 10px;
+  position: absolute;
+  right: 14%;
+  cursor: pointer;
+  background-color: #160F07;
+  border-radius: 0 10px 10px 0;
+  transition: transform 200ms ease-in;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+#input {
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 2px lightgoldenrodyellow;
+  background-color: inherit;
+  display: block;
+  margin: 10px auto auto;
+  font-family: Source Sans Pro, serif;
+  font-size: 1.6em;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+#input:focus {
+  /*Cool way to change the oultine of an input field*/
+  outline: none;
+  box-shadow: 0 0 5px saddlebrown;
+  border-radius: 10px;
+}
+
+#responseField {
+  border-radius: 10px;
+  background-color: #160F07;
+  margin: 25px auto auto;
+  font-family: Source Sans Pro, serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ffffff;
+  overflow-wrap: break-word;
+  padding: 20px;
+  /*display: none;*/
+}
+
+#submit:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#submit:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #ef6b68;
+  cursor: pointer;
+}
+
+footer {
+  font-family: Work Sans,sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #160F07;
+  color: white;
+  text-align: center;
+}
+
+/*Css for animating the browse button*/
+.button {
+
+  --offset: 10px;
+  --border-size: 3px;
+  display: block;
+  position: relative;
+  padding: 1.5em 3em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+  -webkit-transition: background .8s ease;
+  transition: background .8s ease;
+  margin: 20px auto;
+  background-color: #160F07
+}
+.button:hover {
+  background-color: #160F07;
+}
+.button__horizontal, .button__vertical {
+  position: absolute;
+  top: var(--horizontal-offset, 0);
+  right: var(--vertical-offset, 0);
+  bottom: var(--horizontal-offset, 0);
+  left: var(--vertical-offset, 0);
+  -webkit-transition: -webkit-transform .8s ease;
+  transition: -webkit-transform .8s ease;
+  transition: transform .8s ease;
+  will-change: transform;
+}
+.button__horizontal::before, .button__vertical::before {
+  content: '';
+  position: absolute;
+  border: inherit;
+}
+.button__horizontal {
+  --vertical-offset: calc(var(--offset) * -1);
+  border-top: var(--border-size) solid currentcolor;
+  border-bottom: var(--border-size) solid currentcolor;
+}
+.button__horizontal::before {
+  top: calc(var(--vertical-offset) - var(--border-size));
+  bottom: calc(var(--vertical-offset) - var(--border-size));
+  left: calc(var(--vertical-offset) * -1);
+  right: calc(var(--vertical-offset) * -1);
+}
+.button:hover .button__horizontal {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+.button__vertical {
+  --horizontal-offset: calc(var(--offset) * -1);
+  border-left: var(--border-size) solid currentcolor;
+  border-right: var(--border-size) solid currentcolor;
+}
+.button__vertical::before {
+  top: calc(var(--horizontal-offset) * -1);
+  bottom: calc(var(--horizontal-offset) * -1);
+  left: calc(var(--horizontal-offset) - var(--border-size));
+  right: calc(var(--horizontal-offset) - var(--border-size));
+}
+.button:hover .button__vertical {
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+}
+
+
+/*Style for the toggle switch*/
+
+.filter {
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin-top: 10px;
+}
+input.sw {
+  /*We are deleting the standard input element*/
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
+/*Selecting all the label elements that
+are placed immediatly after input*/
+input.sw + label {
+  /*Can't select text with this enabled*/
+  user-select: none;
+  transition: 0.2s ease;
+  display: inline-block;
+  height: 30px;
+  width: 51px;
+  position: relative;
+  box-shadow: inset 0 0 0px 2px #e4e4e4;
+  border-radius: 60px;
+  /* White toggle */
+}
+
+input.sw + label:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background: rgba(76, 217, 100, 0);
+  transition: 0.2s cubic-bezier(0.24, 0, 0.5, 1);
+}
+input.sw + label:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 28px;
+  width: 28px;
+  top: 50%;
+  margin-top: -14px;
+  left: 1px;
+  border-radius: 60px;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0px 0 rgba(0, 0, 0, 0.04), 0 4px 9px rgba(0, 0, 0, 0.13), 0 3px 3px rgba(0, 0, 0, 0.05);
+  transition: 0.35s cubic-bezier(0.54, 1.6, 0.5, 1);
+}
+input.sw + label span {
+  white-space: nowrap;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 51px;
+  padding-left: 16px;
+}
+input.sw:checked + label:before {
+  width: 51px;
+  background: darksalmon;
+  transition: width 0.2s cubic-bezier(0, 0, 0, 0.1) !important;
+}
+input.sw:checked + label:after {
+  left: 22px;
+}
+input.sw:checked + label {
+  box-shadow: inset 0 0 0px 25px #e4e4e4;
+  transition: box-shadow 2.5s cubic-bezier(0, 1.2, 0.94, 0.95);
+}
+
+
+/*Style for books*/
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.book {
+  background-color: black;
+  -webkit-box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.48);
+  box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.48);
+  border-radius: 10px;
+  /*   background-image: url(https://i.imgur.com/VqgIGmN.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+.book::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background-image: url(https://i.imgur.com/VqgIGmN.png);*/
+  opacity: 0.8;
+}
+
+.book-spacing {
+  transition: 0.2s;
+  padding-top: 120px;
+}
+
+
+
+.book-content {
+  padding-top: 80px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 15%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 15%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 15%);
+  height: 100vh;
+
+}
+
+
+.description {
+  margin-top: 10px;
+  padding: 15px 0 0 0;
+  font-size: 12px;
+  height: 50px;
+  overflow: auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.tagbox {
+  display: inline-block;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.pink {
+  background-color: pink;
+}
+
+

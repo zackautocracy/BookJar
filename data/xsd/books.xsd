@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="books" type="booksType"/>
+  <xs:complexType name="authorsType">
+    <xs:sequence>
+      <xs:element name="author" maxOccurs="unbounded" minOccurs="1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sectionsType">
+    <xs:sequence>
+      <xs:element name="section" maxOccurs="unbounded" minOccurs="1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="priceType">
+    <xs:simpleContent>
+      <xs:extension base="xs:decimal">
+        <xs:attribute type="xs:string" name="currency" fixed="MAD"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="bookType">
+    <xs:sequence>
+      <xs:element name="ISBN">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{10}"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element type="authorsType" name="authors"/>
+      <xs:element name="cover" type="xs:string"/>
+      <xs:element name="genre" type="xs:string"/>
+      <xs:element type="sectionsType" name="sections"/>
+      <xs:element name="rating" type="xs:decimal"/>
+      <xs:element type="priceType" name="price"/>
+      <xs:element name="publish_date" type="xs:date"/>
+      <xs:element name="description" type ="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="booksType">
+    <xs:sequence>
+      <xs:element type="bookType" name="book" maxOccurs="unbounded" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

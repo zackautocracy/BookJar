@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<books>
+<book>
+<ISBN>0061964360</ISBN>
+<title>Glencoe Health</title>
+<authors>
+    <author>Austen Jane</author>
+</authors>
+<cover>img/books/book1.png</cover>
+<genre>Philosophie</genre>
+<sections>
+    <section>The pride inside of me</section>
+    <section>Prejudice repercussions</section>
+</sections>
+<rating>4.2</rating>
+<price currency="MAD" >63.00</price>
+<publish_date>05-04-2009</publish_date>
+<description>With all the forces of the world conspiring to keep Mr. Darcy and Elizabeth Bennet apart, how will fate manage to bring them together? It certainly won't be easy if they're fighting it every step of the way. But theirs is a love that was meant to be, despite all the odds against them.</description>
+</book>
+<book>
+<ISBN>0316160199</ISBN>
+<title>New Moon</title>
+<authors>
+    <author>STEPHENIE MEYER</author>
+</authors>
+<cover>img/books/book2.jpg</cover>
+<genre>General Fiction</genre>
+<sections>
+    <section>Twilight the beginning</section>
+    <section>Wolfs vs vampires</section>
+</sections>
+<rating>3.9</rating>
+<price currency="MAD" >170.00</price>
+<publish_date>2006-08-01</publish_date>
+<description>On her eighteenth birthday, Bella Swan awakens from a dream where she is an old woman and Edward Cullen, her immortal vampire boyfriend is forever young. Despite her lack of enthusiasm, Edward's family host a birthday reception for Bella at their residence. While unwrapping a gift, Bella receives a paper cut.</description>
+</book>
+<book>
+<ISBN>0002321777</ISBN>
+<title>Rift (the crime club)</title>
+<authors>
+    <author>Lisa Cody</author>
+</authors>
+<cover>img/books/book3.jpg</cover>
+<genre>General Fiction</genre>
+<sections>
+    <section>The begining of a new area</section>
+    <section>Kill with purpose</section>
+</sections>
+<rating>3.5</rating>
+<price currency="MAD" >89.00</price>
+<publish_date>1999-10-01</publish_date>
+<description>The Crime Club was an imprint of the Doubleday publishing company, which later spawned a ... series between 1937 and 1939. The first film in the series was The Westland Case, based on the Jonathan Latimer novel Headed for a Hearse.</description>
+</book>
+<book>
+<ISBN>1413708323</ISBN>
+<title>Taking the Long Way Home
+</title>
+<authors>
+    <author>Hitchcock</author>
+</authors>
+<cover>img/books/book4.jpg</cover>
+<genre>General Fiction</genre>
+<sections>
+    <section>Long road to go</section>
+    <section>The missing piece</section>
+    <section>Finally home!</section>
+</sections>
+<rating>4.5</rating>
+<price currency="MAD" >150.00</price>
+<publish_date>1999-10-04</publish_date>
+<description>Mrs. Hensley can't take one more second of her children's bickering, but never imagined that when she sent them out for a day of fishing, the real journey they would embark upon. Andrea, Kevin and Heather also never dreamed that a wish Andrea would make after a childish prank would take them to a world beyond anything they could ever imagine.</description>
+</book>
+<book>
+<ISBN>0821773038 </ISBN>
+<title>The Dragon Prince</title>
+<authors>
+    <author>Gilgannon Mary</author>
+</authors>
+<cover>img/books/book5.jpg</cover>
+<genre>Romance</genre>
+<sections>
+    <section>My first love</section>
+    <section>Don't forget who we are</section>
+</sections>
+<rating>2.5</rating>
+<price currency="MAD" >24.00</price>
+<publish_date>2012-06-05</publish_date>
+<description>The sequel to Dragon of the Island and Dragon's Dream follows Rhun, a fierce warrior dedicated to King Arthur, as he meets Eastra, an enchanting Saxon princess who tempts his very soul, and as the Saxons and Britons battle for supremacy, Eastra offers herself as a sacrifice to stop the war, forcing Rhun to make a choice that will change his life forever.</description>
+</book>
+<book>
+<ISBN>0446616044</ISBN>
+<title>Train From Marietta</title>
+<authors>
+    <author>Garlock Dorothy</author>
+</authors>
+<cover>img/books/book6.jpg</cover>
+<genre>Romance</genre>
+<sections>
+    <section>Trip to nowhere</section>
+    <section>Finally in my homeland</section>
+</sections>
+<rating>3.5</rating>
+<price currency="MAD" >50.00</price>
+<publish_date>2008-07-03</publish_date>
+<description>Dorothy Garlock's exciting Texastale of romance, intrigue and adventure is now in massmarket</description>
+</book>
+<book>
+<ISBN>0751508136</ISBN>
+<title>THE FAR SIDE GALLERY 4</title>
+<authors>
+    <author>Larson Gary</author>
+</authors>
+<cover>img/books/book7.jpg</cover>
+<genre>Cartoon</genre>
+<sections>
+    <section>1st story</section>
+    <section>2nd story</section>
+</sections>
+<rating>3.7</rating>
+<price currency="MAD" >64.00</price>
+<publish_date>1994-03-07</publish_date>
+<description>Offers a compilation of selected cartoons from three previous Far Side collections</description>
+</book>
+<book>
+<ISBN>0906710510</ISBN>
+<title>GARFIELD : WHAT'S COOKING</title>
+<authors>
+    <author>David Jim</author>
+</authors>
+<cover>img/books/book8.jpg</cover>
+<genre>Cartoon</genre>
+<sections>
+    <section>Garfield's in the space</section>
+    <section>Garfield's fiesta</section>
+</sections>
+<rating>4.8</rating>
+<price currency="MAD" >81.00</price>
+<publish_date>2004-11-08</publish_date>
+<description>We go though garfield journey</description>
+</book>
+<book>
+<ISBN>0413293807</ISBN>
+<title>COMPLEAT TANGLER</title>
+<authors>
+    <author>Thelwell Norman</author>
+</authors>
+<cover>img/books/book9.jpg</cover>
+<genre>Cartoon</genre>
+<sections>
+    <section>Fishing day</section>
+    <section>How to fish well</section>
+</sections>
+<rating>3.8</rating>
+<price currency="MAD" >174.00</price>
+<publish_date>1984-07-08</publish_date>
+<description>A humourous look at aspects of fishing and angling.</description>
+</book>
+<book>
+<ISBN>0671761749</ISBN>
+<title>BE MY GUEST</title>
+<authors>
+    <author>Conrad N. Hilton</author>
+</authors>
+<cover>img/books/book10.jpg</cover>
+<genre>Economics</genre>
+<sections>
+    <section>Make me buy this pen</section>
+    <section>How to know when to make a bet</section>
+    <section>Start your business now</section>
+</sections>
+<rating>4.6</rating>
+<price currency="MAD" >180.00</price>
+<publish_date>1998-06-17</publish_date>
+<description>Business corporate history and Management of Hilton Hotel Chain. Hospitality Industry</description>
+</book>
+<book>
+<ISBN>0671761749</ISBN>
+<title>DEN OF THIEVES</title>
+<authors>
+    <author>James B. Stewart</author>
+</authors>
+<cover>img/books/book11.jpg</cover>
+<genre>Economics</genre>
+<sections>
+    <section>The beginning of a crise</section>
+    <section>Poverty propaganda</section>
+</sections>
+<rating>2.6</rating>
+<price currency="MAD" >90.00</price>
+<publish_date>1999-08-18</publish_date>
+<description>Den of Thieves tells the full story of the insider-trading scandal that nearly destroyed Wall Street, the men who pulled it off, and the chase that finally brought them to justice.</description>
+</book>
+<book>
+<ISBN>8172238983</ISBN>
+<title>BHAGAVADGITA</title>
+<authors>
+    <author>Harper Collins</author>
+</authors>
+<cover>img/books/book12.jpg</cover>
+<genre>Social Books</genre>
+<sections>
+    <section>The language of love</section>
+    <section>Gather everything</section>
+</sections>
+<rating>4.9</rating>
+<price currency="MAD" >190.00</price>
+<publish_date>2010-10-24</publish_date>
+<description>The Bhagavadgita or Sacred Song holds an assured place among the world's great scriptures.In fourteen hundred lines of verse,the relationship of man with god-and the intense joy of divine love-are celebrated in language that is precise and beautiful.</description>
+</book>
+</books>
