@@ -39,9 +39,11 @@ XML file that holds the books hierarchy.
 After cloning the repository you should have the following file tree :
 
 ### Tree:
-- `index.html` an HTML file with the HandleBars template used in a script tag with `type="text/x-handlebars-template"`
-- `CSS directory` contains all the stylesheets used by the app.
-- `JS directory` contains modules of helper functions that are imported in `main.js` that contains the logic of the app.
+- `Public directory` has the files that should be public to be hosted and contains :
+   - `index.html` an HTML file with the HandleBars template used in a script tag with `type="text/x-handlebars-template"`
+
+   - `CSS directory` contains all the stylesheets used by the app.
+   - `JS directory` contains modules of helper functions that are imported in `main.js` that contains the logic of the app.
 - `Data directory` the warehouse of the app it has the `books.xml` file (contains books) , `books.xsd` (contains the schema),
   `xml2books.JSON.xsl` (contains the stylesheet) and `books.json` (contains the output target in JSON format) tailored specifically for API usage.
 - `Img directory` contains images that represent book covers.
