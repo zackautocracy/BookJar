@@ -1,7 +1,7 @@
 Book Jar 1.0.0
 ==============
 
-<img width="370" height="200" src="img/large_Book-Jar.png" alt="Book Jar logo">
+<img width="370" height="200" src="public/img/large_Book-Jar.png" alt="Book Jar logo">
 
 
 Book Jar is an electronic library powered by XML as a data source storage , validated with an XSD and processed via XSLT to ouput it in a JSON format that Javascript uses afterwards in rendering, it provides a minimalistic sleek
