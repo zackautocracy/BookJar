@@ -10,7 +10,7 @@ const collection = document.querySelector('#collection');
 const footer = document.querySelector('#footer');
 responseField.style.display = 'none';
 
-let booksPromise = loadJSON('data/dataOutput/books.json');
+let booksPromise = loadJSON('../data/dataOutput/books.json');
 
 booksPromise.then(Start);
 
