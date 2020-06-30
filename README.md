@@ -13,7 +13,7 @@ XML file that holds the books hierarchy.
 ## About
  - Authors: `Zakaria Ouadrhiri Idrissi Azzouzi` & `Anas Ait El Kouch`
  - License: MIT License
- - Website: ~~http://bookjar.educationhost.cloud/~~ (not available at the moment)
+ - Website:   [http://bookjar.educationhost.cloud/](http://bookjar.educationhost.cloud/)
      - Fallback : [https://nervous-jang-7fa29c.netlify.app/](https://nervous-jang-7fa29c.netlify.app/)
 
  - Git clone: [https://github.com/zackautocracy/BookJar.git](https://github.com/zackautocracy/BookJar.git)
@@ -88,8 +88,8 @@ You can you use the official XSLT processor [by Saxon](http://saxon.sourceforge.
 ![screenshot](https://i.imgur.com/P1xJL3Y.png)
 
 #### 4 - You're good to go:
-The app has some javascript code that loads the generated JSON file automatically
-So you now you can our little library updated.
+The app has some javascript code that loads the generated JSON file automatically.
+And now you can see our little library updated.
 And all that in no time. Hail to JSON !!!
 
 ![screenshot](https://i.imgur.com/0Yp2AUx.jpg)
