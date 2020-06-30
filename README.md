@@ -1,7 +1,7 @@
 Book Jar 1.0.0
 ==============
 
-<img width="370" height="200" src="img/large_Book-Jar.png" alt="Book Jar logo">
+<img width="370" height="200" src="public/img/large_Book-Jar.png" alt="Book Jar logo">
 
 
 Book Jar is an electronic library powered by XML as a data source storage , validated with an XSD and processed via XSLT to ouput it in a JSON format that Javascript uses afterwards in rendering, it provides a minimalistic sleek
@@ -44,9 +44,9 @@ After cloning the repository you should have the following file tree :
 
    - `CSS directory` contains all the stylesheets used by the app.
    - `JS directory` contains modules of helper functions that are imported in `main.js` that contains the logic of the app.
-- `Data directory` the warehouse of the app it has the `books.xml` file (contains books) , `books.xsd` (contains the schema),
+   - `Data directory` the warehouse of the app it has the `books.xml` file (contains books) , `books.xsd` (contains the schema),
   `xml2books.JSON.xsl` (contains the stylesheet) and `books.json` (contains the output target in JSON format) tailored specifically for API usage.
-- `Img directory` contains images that represent book covers.
+   - `Img directory` contains images that represent book covers.
 
 
 ### Steps:
