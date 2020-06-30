@@ -13,7 +13,9 @@ XML file that holds the books hierarchy.
 ## About
  - Authors: `Zakaria Ouadrhiri Idrissi Azzouzi` & `Anas Ait El Kouch`
  - License: MIT License
- - Website: [http://bookjar.educationhost.cloud/](http://bookjar.educationhost.cloud/)
+ - Website: ~~http://bookjar.educationhost.cloud/~~
+     - Fallback : [https://nervous-jang-7fa29c.netlify.app/](https://nervous-jang-7fa29c.netlify.app/)
+
  - Git clone: [https://github.com/zackautocracy/BookJar.git](https://github.com/zackautocracy/BookJar.git)
 
 ## Design Goals
